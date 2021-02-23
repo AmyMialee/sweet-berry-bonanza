@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "berry_tart",
+  "ingredients": [
+    {
+      "item": "sweetberrybonanza:sweet_berry_jam"
+    },
+    {
+      "item": "sweetberrybonanza:sweet_berry_jam"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "sweetberrybonanza:berry_tart",
+    "count": 1
+  }
+}

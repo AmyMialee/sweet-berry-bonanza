@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    "BPB",
+    " Z "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:sweet_berries"
+    },
+    "P": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "Z": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "item": "sweetberrybonanza:bejewelled_berry"
+  }
+}

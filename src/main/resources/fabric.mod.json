@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "sweet-berry-bonanza",
+  "version": "${version}",
+  "name": "Sweet Berry Bonanza",
+  "description": "A simple selection of sweet treats.",
+  "authors": [
+    "AmyMialee"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/durability-speed",
+    "issues": "https://discord.gg/P4dUsxv6An"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/sweetberrybonanza/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "amymialee.sweetberrybonanza.SweetBerryBonanza"
+    ]
+  },
+  "mixins": [
+    "sweet-berry-bonanza.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  },
+  "custom": {
+    "modupdater": {
+      "strategy": "curseforge",
+      "projectID": 449615,
+      "strict": false
+    },
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/P4dUsxv6An"
+      }
+    }
+  }
+}
